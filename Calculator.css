@@ -1,0 +1,97 @@
+﻿#calc-body {
+    
+    background-color: whitesmoke;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border: 1px solid grey;
+border-radius: 5px;
+}
+
+.calc-screens {
+    padding-left : 9px;
+    padding-right : 9px;
+   width : 278.6px;
+    margin-left : 1px; 
+    height: 50px;
+    background-color: #b7b6b1;
+   border-left: none;
+   border-right: none;
+   border-collapse: collapse;
+    display: table;
+    cursor: not-allowed;
+   font-weight: bold;
+    font-size : 15px;
+//padding : 15px;    
+}
+
+#second-calc-screen {
+    
+    margin-top: -3px;
+    border-top: none;
+    text-align: right;
+   
+}
+
+#first-calc-screen {
+    
+    //border-bottom: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+input[type="button"] , #square {
+    border-radius : 4px;
+    background-color: black;
+    color : white;
+    border : 1px solid black;
+    outline : none;
+    height : 24px;
+    width : 45px;
+  cursor : pointer;
+    }
+
+#on {
+    
+    margin-left : 200px;
+}
+#off {
+    
+    margin-left: 3px;
+}
+
+.first-row{
+    margin-top : 10px;
+}
+
+.second-row , .third-row , .fourth-row {
+margin-top : 25px;
+    margin-left : 7px;
+}
+.fifth-row {
+    
+    margin-left : 7px;
+ //   margin-top : 6px;
+}
+#del , #seven , #four , #one , #zero {
+    
+    margin-left : 28px;
+}
+
+#root{
+margin-right ;
+}
+
+#equals {
+    position : relative;
+    height : 60px;
+    top : 20px;
+}
+
+.sixth-row{
+    margin-left : 7px;
+}
+#zero{
+    
+    width : 100px;
+}
